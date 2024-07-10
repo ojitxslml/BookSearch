@@ -14,7 +14,7 @@ import SearchForm from "./components/SearchForm";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <AppProvider>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename ="/BookSearch">
       <Routes>
         <Route path="/" element={<Home />} >
         <Route path="about" element={<About />} />
